@@ -1,7 +1,7 @@
 server:
-  port:9002
+  port: 9002
 spring:
   application:
     name: DEPARTMENT-SERVICE
-  zipikin:
+  zipkin:
     base-uri: http://127.0.01:9411/
