@@ -15,13 +15,10 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long userId;
-
-
-
     private String firstname;
     private  String lastname;
     private  String email;
-    private  Long departmentid;
+    private  Long departmentId;
 
 //    public Long getUserId() {
 //        return userId;

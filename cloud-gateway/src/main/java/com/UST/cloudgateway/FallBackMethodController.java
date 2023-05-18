@@ -11,6 +11,7 @@ public class FallBackMethodController {
     }
     @GetMapping("/departmentServiceFallBackMethod")
     public String departmentServiceFallBackMethod(){
+
         return "Hi user,our service is taking a time.Please wait";
     }
 
